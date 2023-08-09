@@ -1,0 +1,427 @@
+header {
+  position: relative;
+}
+
+header::after {
+  content: "";
+  border-radius: 320px;
+  background: #f8ba3b;
+  filter: blur(300px);
+  width: 320px;
+  height: 320px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+header::before {
+  content: "";
+  border-radius: 320px;
+  background: #f8ba3b;
+  filter: blur(300px);
+  width: 320px;
+  height: 320px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.conteiner {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_foto {
+  width: 60px;
+  padding-top: 32px;
+}
+
+.menu_list {
+  display: inline-flex; /*                                                          ?? */
+  justify-content: center; /*                                                          ?? */
+  flex-wrap: wrap;
+  /*align-items: center;                                                           ?? */
+  gap: 32px;
+  padding-top: 54px;
+}
+
+.menu_list > li > a {
+  color: #100f0f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; /*                                                          ?? */
+  text-decoration: none;
+}
+
+.menu_tel_foto {
+  width: 24px;
+  height: 24px;
+  padding-right: 8px;
+}
+
+.menu_tel {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  padding: 16px 22px 16px 23px;
+  align-items: center;
+  border-radius: 18px;
+  border: 1px solid #100f0f;
+}
+
+.menu_tel_text {
+  width: auto;
+  height: auto;
+  color: #100f0f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.banner_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 114.286% */
+  text-transform: uppercase;
+  background: #f96739;
+  width: 159px;
+
+  margin-top: 184px;
+}
+
+.Frontend_developer {
+  color: #100f0f;
+  font-family: Roboto Mono;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 100% */
+  text-transform: lowercase;
+  width: 392px;
+
+  margin-bottom: 32px;
+}
+
+.banner_wrapper_content_text {
+  color: #100f0f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 424px;
+  margin-bottom: 32px;
+}
+
+.banner_wrapper_content_info {
+  color: #757575;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 48px;
+}
+
+.banner_wrapper_content_button {
+  display: flex;
+  padding: 24px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 18px;
+  background: #100f0f;
+
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  cursor: pointer;
+}
+
+.banner_wrapper_photo_man_with_notebook {
+  display: block;
+  margin-top: 158px;
+  width: 844px;
+  margin-bottom: 200px;
+}
+
+.ticker {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.smile {
+  display: block;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticker_list {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  background: #f96739;
+  width: 1522px;
+  width: 2084px;
+  height: 80px;
+  transform: rotate(3deg);
+
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  z-index: 2;
+}
+
+.ticker_arrow {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  background: #f8ba3b;
+  width: 2016px;
+  height: 80px;
+  transform: rotate(-3deg);
+}
+
+.Why_Choose_Us {
+  background: #fef8eb;
+}
+
+.Why_Choose_Us_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Why_Choose_Us_wrapper_title {
+  color: #100f0f;
+  font-family: Montserrat;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 56px;
+}
+
+.Why_Choose_Us_wrapper_content {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 61px;
+}
+
+.Professional_experience,
+.Individual_approach,
+.Flexible_schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 424px;
+  height: 424px;
+  border-radius: 32px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.Professional_experience_Group1171274759_photo,
+.Individual_approach_Group_1171274760_photo,
+.Flexible_schedule_Group_1171274761_photo {
+  display: block;
+  max-width: 100px;
+  margin-top: 53px;
+  margin-bottom: 16px;
+}
+
+.Professional_experience_title,
+.Individual_approach_title,
+.Flexible_schedule_title {
+  width: 312px;
+  color: #100f0f;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.Professional_experience_text,
+.Individual_approach_text,
+.Flexible_schedule_text {
+  width: 310px;
+  color: #100f0f;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  padding-bottom: 53px;
+}
+
+.for_whom {
+  position: relative;
+}
+
+.for_whom::before {
+  content: "";
+  border-radius: 320px;
+  background: #f8ba3b;
+  filter: blur(300px);
+  width: 320px;
+  height: 320px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.for_whom_wrapper {
+  display: flex;
+  padding-bottom: 152px;
+  gap: 7px;
+}
+
+.for_whom_wrapper_Group_1171274763_photo {
+  width: 702px;
+  padding-top: 95px;
+}
+
+.for_whom_wrapper_content_title_text {
+  color: #100f0f;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 657px;
+  padding-top: 114px;
+  padding-bottom: 23px;
+}
+
+.for_whom_wrapper_content_title {
+  display: flex;
+}
+
+.For_beginners_title,
+.For_freelancers_title,
+.For_children_title {
+  display: flex;
+  padding-top: 34px;
+  padding-bottom: 26px;
+}
+
+.For_beginners_title_text,
+.For_freelancers_title_text,
+.For_children_title_text {
+  color: #100f0f;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-left: 8px;
+}
+
+.For_beginners_content,
+.For_freelancers_content,
+.For_children_content {
+  width: 556px;
+  color: #100f0f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.program_wrapper_title {
+  color: #100f0f;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 56px;
+}
+
+.Introduction,
+.Basics_JS,
+.Advanced_JS,
+.Frameworks_Libraries,
+.Responsive_web,
+.Optimization_testing,
+.Build_Deploy,
+.Personal_projects {
+  width: 1320px;
+  height: 193px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: #fef8eb;
+  margin-bottom: 16px;
+}
+
+.Introduction_title {
+  color: #100f0f;
+  text-align: start;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 18px;
+}
+
+.Introduction_text {
+  color: #100f0f;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-variant: small-caps;
+  padding-left: 88px;
+  list-style-type: disc;
+
+}
